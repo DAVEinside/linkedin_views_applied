@@ -1,0 +1,67 @@
+.job-stats-container {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-stats-header {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.job-stats-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.job-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+}
+
+.job-stat-icon {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+.job-stat-label {
+    font-weight: 500;
+    color: #666;
+    min-width: 80px;
+}
+
+.job-stat-value {
+    font-weight: 600;
+    color: #0a66c2;
+    background: #e7f3ff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .job-stats-container {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .job-stats-header {
+        font-size: 14px;
+    }
+    
+    .job-stat-item {
+        flex-wrap: wrap;
+    }
+}
